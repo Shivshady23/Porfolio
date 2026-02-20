@@ -16,8 +16,6 @@
     0 22px 48px rgba(56, 189, 248, 0.14),
     0 10px 22px rgba(168, 85, 247, 0.12);
   --glass-blur: 24px;
-  --input-bg: rgba(255, 255, 255, 0.06);
-  --success: #34d399;
   --danger: #f87171;
 }
 
@@ -36,7 +34,6 @@
     0 20px 44px rgba(56, 189, 248, 0.2),
     0 8px 22px rgba(168, 85, 247, 0.15);
   --glass-blur: 22px;
-  --input-bg: rgba(255, 255, 255, 0.7);
 }
 
 * {
@@ -710,12 +707,6 @@ p {
   box-shadow: 0 10px 28px rgba(56, 189, 248, 0.25);
 }
 
-.contact-form {
-  display: grid;
-  gap: 0.95rem;
-  padding: 1.1rem;
-}
-
 .resume-card {
   padding: 1rem;
 }
@@ -765,55 +756,6 @@ p {
 .contact-link:hover {
   color: #7dd3fc;
   text-shadow: 0 0 14px rgba(56, 189, 248, 0.45);
-}
-
-.contact-form label {
-  display: grid;
-  gap: 0.42rem;
-  font-size: 0.92rem;
-  color: var(--text);
-}
-
-.contact-form input,
-.contact-form textarea {
-  border-radius: 12px;
-  border: 1px solid var(--glass-border);
-  background: var(--input-bg);
-  padding: 0.72rem 0.78rem;
-  color: var(--text);
-  font: inherit;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: rgba(56, 189, 248, 0.9);
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
-}
-
-.field-error {
-  color: #fca5a5;
-  font-size: 0.82rem;
-}
-
-.submit-error {
-  color: #fca5a5;
-}
-
-.submit-btn {
-  width: fit-content;
-}
-
-.submit-btn:disabled {
-  cursor: not-allowed;
-  opacity: 0.6;
-}
-
-.success-toast {
-  margin-top: 0.2rem;
-  padding: 0.72rem;
-  color: var(--success);
-  font-size: 0.92rem;
 }
 
 .footer-section {
