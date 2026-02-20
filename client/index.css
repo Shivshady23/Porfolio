@@ -366,17 +366,6 @@ p {
   color: var(--text-muted);
 }
 
-.typing-caret {
-  color: #38bdf8;
-  animation: blink 1s steps(2, start) infinite;
-}
-
-@keyframes blink {
-  to {
-    visibility: hidden;
-  }
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
