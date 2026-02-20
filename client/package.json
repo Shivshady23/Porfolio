@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel index.html --port 5173",
+    "build": "parcel build index.html",
+    "lint": "eslint .",
+    "preview": "parcel serve index.html --port 4173"
+  },
+  "dependencies": {
+    "framer-motion": "^12.34.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0",
+    "parcel": "^2.16.1"
+  }
+}
